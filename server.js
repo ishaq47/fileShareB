@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 
 const app = express();
-const PORT = 5000;j
+const PORT = 5000;
 const UPLOAD_DIR = path.join(__dirname, 'uploads');
 
 if (!fs.existsSync(UPLOAD_DIR)) {
